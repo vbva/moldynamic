@@ -1,0 +1,11 @@
+; Include forcefield parameters
+#include "./charmm36-jul2022.ff/forcefield.itp"
+#include "TOLU.itp"
+
+[ system ]
+; Name
+toluene
+
+[ molecules ]
+; Compound        #mols
+toluene             300
